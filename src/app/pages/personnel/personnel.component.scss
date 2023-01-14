@@ -1,0 +1,50 @@
+#exampleModal {
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+}
+@-webkit-keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+#adddropdown {
+  top: -10%;
+  -webkit-animation-name: rightanimationend;
+  -webkit-animation-duration: 0.4s;
+  animation-name: rightanimation;
+  animation-duration: 0.4s;
+}
+#offcanvasNavbar{
+    width: 40%;
+}
+#btn-submit-add{
+    text-align: center;
+}
+#offcanvasNavbarupdate{
+  width: 50%;
+}
+#imgupdate{
+  color: bisque;
+  border: 1px solid #b3aea7;
+  width: 200px;
+  height: 300px;
+  margin-left: 20%;
+}
